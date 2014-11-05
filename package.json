@@ -1,0 +1,26 @@
+{
+  "name": "db_populate",
+  "version": "0.0.1",
+  "description": "App to populate db with fixtures",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hserang/db_populate.git"
+  },
+  "author": "Haroun Serang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hserang/db_populate/issues"
+  },
+  "homepage": "https://github.com/hserang/db_populate",
+  "dependencies": {
+    "bookshelf": "^0.7.9",
+    "chance": "^0.6.1",
+    "express": "^4.10.1",
+    "knex": "^0.7.3",
+    "pg": "^3.6.2"
+  }
+}
